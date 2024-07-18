@@ -253,7 +253,7 @@
                             <div class="content text-center">
                                 <div class="big-title">
                                     <h2>
-                                        Best Consulting<br> Services
+                                        Selamat<br> Datang
                                     </h2>
                                 </div>
                                 <div class="btns-box">
@@ -296,7 +296,7 @@
                             <div class="content text-center">
                                 <div class="big-title">
                                     <h2>
-                                        Best Consulting<br> Services
+                                        Selamat<br> Datang
                                     </h2>
                                 </div>
                                 <div class="btns-box">
@@ -324,37 +324,13 @@
                             <div class="sec-title sec-title--style2">
                                 <div class="sub-title">
                                     <div class="border-box"></div>
-                                    <h3>What we do</h3>
+                                    <h3>Lihat Disini</h3>
                                 </div>
-                                <h2>Services We’re<br> Offering</h2>
+                                <h2>Perbankan <br> Syariah</h2>
                             </div>
                             <div class="inner-text">
-                                <p>There are many variations of passages of lorem ipsum available but the majority have
-                                    suffered in some form by injected humour.</p>
+                                <p>Mahasiswa bisa melihat info perihal perkuliahan disini.</p>
                             </div>
-
-                            <div class="video-holder-box">
-                                <div class="video-gallery-style1">
-                                    <div class="video-gallery-style1__bg"
-                                        style="background-image: url(assets/images/resources/video-gallery-style1-bg.jpg);">
-                                    </div>
-                                    <div class="icon wow zoomIn animated" data-wow-delay="300ms"
-                                        data-wow-duration="1500ms">
-                                        <a class="video-popup" title="Video Gallery"
-                                            href="https://www.youtube.com/watch?v=p25gICT63ek">
-                                            <span class="fa fa-play"></span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="video-gallery-title">
-                                    <h3>Fusce dapus nisi est</h3>
-                                    <a class="video-popup" title="Video Gallery"
-                                        href="https://www.youtube.com/watch?v=p25gICT63ek">
-                                        Watch Video
-                                    </a>
-                                </div>
-                            </div>
-
                         </div>
                     </div>
 
@@ -370,7 +346,7 @@
                                         </div>
                                         <div class="title-holder">
                                             <h3>
-                                                <a href="services-single-1.html">Business<br> Growth</a>
+                                                <a href="services-single-1.html">Penjadwalan</a>
                                             </h3>
                                         </div>
                                     </div>
@@ -385,7 +361,7 @@
                                         </div>
                                         <div class="title-holder">
                                             <h3>
-                                                <a href="services-single-1.html">Marketing<br> Rules</a>
+                                                <a href="services-single-1.html">Mata Kuliah</a>
                                             </h3>
                                         </div>
                                     </div>
@@ -400,7 +376,7 @@
                                         </div>
                                         <div class="title-holder">
                                             <h3>
-                                                <a href="services-single-1.html">Financial<br> Advice</a>
+                                                <a href="services-single-1.html">Dosen</a>
                                             </h3>
                                         </div>
                                     </div>
@@ -415,7 +391,7 @@
                                         </div>
                                         <div class="title-holder">
                                             <h3>
-                                                <a href="services-single-1.html">Banking<br> Safe</a>
+                                                <a href="services-single-1.html">Mahasiswa</a>
                                             </h3>
                                         </div>
                                     </div>
@@ -445,41 +421,6 @@
             </div>
         </section>
         <!--End Google Map Style1 Area-->
-
-
-
-        <!--Start Partner Area-->
-        <section class="partner-area bg-white">
-            <div class="container">
-                <div class="brand-content">
-                    <div class="inner">
-                        <ul class="partner-box partner-carousel owl-carousel owl-theme owl-dot-style1 rtl-carousel">
-                            <!--Start Single Partner Logo Box-->
-                            <li class="single-partner-logo-box">
-                                <a href="#"><img src="assets/images/brand/brand-logo-1.png" alt="Awesome Image"></a>
-                            </li>
-                            <!--End Single Partner Logo Box-->
-                            <!--Start Single Partner Logo Box-->
-                            <li class="single-partner-logo-box">
-                                <a href="#"><img src="assets/images/brand/brand-logo-2.png" alt="Awesome Image"></a>
-                            </li>
-                            <!--End Single Partner Logo Box-->
-                            <!--Start Single Partner Logo Box-->
-                            <li class="single-partner-logo-box">
-                                <a href="#"><img src="assets/images/brand/brand-logo-3.png" alt="Awesome Image"></a>
-                            </li>
-                            <!--End Single Partner Logo Box-->
-                            <!--Start Single Partner Logo Box-->
-                            <li class="single-partner-logo-box">
-                                <a href="#"><img src="assets/images/brand/brand-logo-4.png" alt="Awesome Image"></a>
-                            </li>
-                            <!--End Single Partner Logo Box-->
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--End Partner Area-->
 
 
         <div class="bottom-parallax">
