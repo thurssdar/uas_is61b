@@ -171,9 +171,9 @@
                         <!--Start Header Left-->
                         <div class="header-style2__left">
                             <div class="logo-box-style2">
-                                <a href="index.html">
-                                    <img src="assets/images/resources/logo-2.png" alt="Awesome Logo" title="">
-                                </a>
+                                <div class="text ">
+                                   <b><h3>PBS UNIDA</h3></b>
+                                </div>
                             </div>
 
                             <div class="nav-outer style2 clearfix">
@@ -194,6 +194,11 @@
                                             <li class="dropdown"><a href="#"><span>Mata Kuliah</span></a></li>
                                             <li class="dropdown"><a href="#"><span>Mahasiswa</span></a></li>
                                             <li class="dropdown"><a href="#"><span>Dosen</span></a> </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    <i class="fa-fa-user" aria-hidden="true"></i>
+                                                    <span><b>{{ Auth::user()->name }}</b></span></a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </nav>
@@ -215,27 +220,6 @@
             </div>
             <!--End header-->
 
-            <!--Sticky Header-->
-            <div class="sticky-header">
-                <div class="container">
-                    <div class="clearfix">
-                        <!--Logo-->
-                        <div class="logo float-left">
-                            <a href="index.html" class="img-responsive">
-                                <img src="assets/images/resources/sticky-logo.png" alt="" title="">
-                            </a>
-                        </div>
-                        <!--Right Col-->
-                        <div class="right-col float-right">
-                            <!-- Main Menu -->
-                            <nav class="main-menu clearfix">
-                                <!--Keep This Empty / Menu will come through Javascript-->
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End Sticky Header-->
 
         </header>
 
@@ -247,34 +231,13 @@
                 <div class="banner-carousel owl-theme owl-carousel">
                     <!-- Slide -->
                     <div class="slide">
-                        <div class="image-layer" style="background-image:url(assets/images/slides/slide-v2-1.jpg)">
+                        <div class="image-layer" style="">
                         </div>
                         <div class="auto-container">
                             <div class="content text-center">
                                 <div class="big-title">
                                     <h2>
                                         Selamat<br> Datang
-                                    </h2>
-                                </div>
-                                <div class="btns-box">
-                                    <a class="btn-one" href="about.html">
-                                        <span class="txt">
-                                            discover more<i class="icon-refresh arrow"></i>
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Slide -->
-                    <div class="slide">
-                        <div class="image-layer" style="background-image:url(assets/images/slides/slide-v2-2.jpg)">
-                        </div>
-                        <div class="auto-container">
-                            <div class="content text-center">
-                                <div class="big-title">
-                                    <h2>
-                                        Consulting Financial<br> Advice
                                     </h2>
                                 </div>
                                 <div class="btns-box">
@@ -288,9 +251,10 @@
                         </div>
                     </div>
 
+
                     <!-- Slide -->
                     <div class="slide">
-                        <div class="image-layer" style="background-image:url(assets/images/slides/slide-v2-3.jpg)">
+                        <div class="image-layer" style="">
                         </div>
                         <div class="auto-container">
                             <div class="content text-center">
@@ -300,7 +264,7 @@
                                     </h2>
                                 </div>
                                 <div class="btns-box">
-                                    <a class="btn-one" href="about.html">
+                                    <a class="btn-one" href="#">
                                         <span class="txt">
                                             discover more<i class="icon-refresh arrow"></i>
                                         </span>
@@ -463,7 +427,7 @@
 
                             <!--Start single footer widget-->
                             <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                <div class="single-footer-widget single-footer-widget--link-box marbtm50">
+                                {{-- <div class="single-footer-widget single-footer-widget--link-box marbtm50">
                                     <div class="title">
                                         <h3>Explore</h3>
                                     </div>
@@ -482,29 +446,13 @@
                                             <li><a href="contact.html">Help</a></li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                             <!--End single footer widget-->
 
                             <!--Start single footer widget-->
                             <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12">
-                                <div class="single-footer-widget">
-                                    <div class="title">
-                                        <h3>Newsletter</h3>
-                                    </div>
-                                    <form class="newsletter-form" action="#">
-                                        <input type="email" name="email" placeholder="Email Address">
-                                        <button class="btn-one" type="submit">
-                                            <span class="txt">Subscribe</span>
-                                        </button>
-                                        <div class="checked-box1">
-                                            <input type="checkbox" name="newsletter-check" id="newsletter" checked="">
-                                            <label for="newsletter">
-                                                <span></span>I agree to all terms and policies
-                                            </label>
-                                        </div>
-                                    </form>
-                                </div>
+                                <
                             </div>
                             <!--End single footer widget-->
 
@@ -516,12 +464,12 @@
                     <div class="container">
                         <div class="bottom-inner">
                             <div class="footer-logo-style1">
-                                <a href="index.html">
+                                <a href="#">
                                     <img src="assets/images/footer/footer-logo.png" alt="Awesome Logo" title="">
                                 </a>
                             </div>
                             <div class="copyright">
-                                <p>Copyright &copy; 2022 <a href="index.html">Sultin</a> All Rights Reserved.</p>
+                                <p>Copyright &copy; 2024 <a href="#">Dara Shalsabila Furda</a> All Rights Reserved.</p>
                             </div>
 
                         </div>
@@ -543,7 +491,7 @@
             <div class="popup-inner">
                 <div class="overlay-layer"></div>
                 <div class="search-form">
-                    <form method="post" action="index.html">
+                    <form method="post" action="#">
                         <div class="form-group">
                             <fieldset>
                                 <input type="search" class="form-control" name="search-input" value=""
