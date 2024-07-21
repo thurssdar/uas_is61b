@@ -194,11 +194,11 @@
                                             <li class="dropdown"><a href="#"><span>Mata Kuliah</span></a></li>
                                             <li class="dropdown"><a href="#"><span>Mahasiswa</span></a></li>
                                             <li class="dropdown"><a href="#"><span>Dosen</span></a> </li>
-                                            <li class="nav-item">
+                                            {{-- <li class="nav-item">
                                                 <a class="nav-link" href="#">
                                                     <i class="fa-fa-user" aria-hidden="true"></i>
                                                     <span><b>{{ Auth::user()->name }}</b></span></a>
-                                            </li>
+                                            </li> --}}
                                         </ul>
                                     </div>
                                 </nav>
